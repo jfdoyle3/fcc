@@ -12,5 +12,5 @@ var total=0;
 }
    return total;
  }
- //print outfunction to console
+ //print out function to console
 console.log(sumAll([10, 5]));
