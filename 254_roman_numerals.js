@@ -2,16 +2,16 @@
 function convertToRoman(num) {
 	var rNum=["I","V"];
 	var dNum=[1,5];
-	 rom_num=[];
+	 roman=[];
 	for (i=0; i< num; i++){
 	  if (num<=3){
-	 pNum=
-	  pNum.push(rom_num);
+	  roman.push(rNum[0]);
   	}                       
 	}
-console.log(rNum);
- return rom_num;
+console.log(roman);
+// return rom_num;
 }
 
+
 //console.log(convertToRoman(3));
-convertToRoman(3);
+convertToRoman(2);
