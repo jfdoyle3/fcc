@@ -8,10 +8,9 @@ function convertToRoman(num) {
 	  roman.push(rNum[0]);
   	}                       
 	}
-console.log(roman);
+console.log(roman.join(""));
 // return rom_num;
 }
 
-
 //console.log(convertToRoman(3));
-convertToRoman(2);
+convertToRoman(3);
