@@ -5,11 +5,12 @@ function convertToRoman(num) {
 	var roman=[];
 	for (i=0; i< num; i++){
 	  if (num<=3){
-	  roman.push(rNum[0]);
+	   roman.push(rNum[0]);
+	   return roman.join("");
+
   	}                       
 	}
-console.log(roman.join(""));
-// return rom_num;
+//console.log(roman.join(""));
 }
 
 //console.log(convertToRoman(3));
