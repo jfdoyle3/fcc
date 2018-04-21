@@ -1,16 +1,19 @@
 function whatIsInAName(collection, source) {
     // What's in a name?
- console.log(collection);
+    var string1="";
     var arr = [];
     // Only change code below this line
-// for ( in collection)
+for (var i in collection){
+    console.log(collection[i]);
+  //  string1 = string1 + arr[name];
+console.log('Object.keys(collection[i]) = ' + Object.keys(collection[i]));    
 
-    
+}
+// .console.log(collection[0]);
     // Only change code above this line
     return arr;
 
   }
 
   
-  whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
-  
+  whatIsInAName([{ "a": 1, "b": 2 }, { "a": 1 }, { "a": 1, "b": 2, "c": 2 }], { "a": 1, "b": 2 })
