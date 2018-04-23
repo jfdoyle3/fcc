@@ -15,6 +15,5 @@ console.log('Object.keys(collection[i]) = ' + Object.keys(collection[i]));
     return arr;
 
   }
-var phonenumber=/\w+/;
   
   whatIsInAName([{ "a": 1, "b": 2 }, { "a": 1 }, { "a": 1, "b": 2, "c": 2 }], { "a": 1, "b": 2 })
