@@ -9,7 +9,6 @@ for (var i in collection){
 console.log('Object.keys(collection[i]) = ' + Object.keys(collection[i]));    
 
 }
-// .console.log(collection[0]);
     // Only change code above this line
     return arr;
 
