@@ -1,6 +1,6 @@
 function whatIsInAName(collection, source) {
     // What's in a name?
-    var string1="";
+    
     var arr = [];
     // Only change code below this line
 for (var i in collection){
