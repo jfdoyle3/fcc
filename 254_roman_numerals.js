@@ -6,23 +6,22 @@ function convertToRoman(num) {
   	 roman.push(rNum[6]);
   	 num -= 1000;
   	}  else
-  	if (num == 5){
+	  if (num == 5){
   		console.log(num);
   		roman.push(rNum[1]);
-  	   num -=5;
+  	   num -= 5;
   	}               
 	  if (num<=3){
-	  		
 	  roman.push(rNum[0]);
 	  num -= 1;
-  	}  
+  	}
 	 }
 console.log(roman.join(""));
 // return rom_num;
 }
 
 //console.log(convertToRoman(3));
-convertToRoman(5);
+convertToRoman(7);
 
 
 
