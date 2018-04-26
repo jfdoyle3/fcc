@@ -1,22 +1,22 @@
 function convertToRoman(num) {
 	var rNum=["I","V","X","L","C","D","M"];
+	var dNum=[1,5,10,50,100,500,1000];
 	var roman=[];
  while (num >0){
 	if (num > 5000){
 		str="Number To big";
 		console.log(str);
 		return str;
-	}
+	} else
 	if (num >=1000 && num <= 5000){
   	 roman.push(rNum[6]);
   	 num -= 1000;
 	  }  else
-	if (num >= 10 && num <= 50){
+	if (num >= 10 && num <= 43){
 		  roman.push(rNum[2]);
 		  num -= 10;
-	  }
-	if (num >= 5 && num <=9){
-		  console.log(num);
+	  } else
+	if (num >= 5 && num <=8){
   		roman.push(rNum[1]);
   	   num -= 5;
 	  }   else
@@ -31,19 +31,6 @@ function convertToRoman(num) {
   	}
 	 }
 console.log(roman.join(""));
-// return rom_num;
+// return roman.join("");
 }
-
-//console.log(convertToRoman(3));
-convertToRoman(6000);
-
-
-
-//max
-// I  3
-// V  1
-// X  4
-// D,C,M  4
-//
-    
-    
+convertToRoman(44);
