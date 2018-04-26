@@ -8,11 +8,16 @@ function convertToRoman(num) {
 		console.log(str);
 		return str;
 	} else
+	if (num >= 40 && num <=48){
+		roman.push(rNum[2]);
+		roman.push(rNum[3])
+		num -=40;
+	} else
 	if (num >=1000 && num <= 5000){
   	 roman.push(rNum[6]);
   	 num -= 1000;
 	  }  else
-	if (num >= 10 && num <= 43){
+	if (num >= 10 && num <= 38){
 		  roman.push(rNum[2]);
 		  num -= 10;
 	  } else
@@ -31,6 +36,6 @@ function convertToRoman(num) {
   	}
 	 }
 console.log(roman.join(""));
-// return roman.join("");
+//return roman.join("");
 }
-convertToRoman(44);
+convertToRoman(1043);
