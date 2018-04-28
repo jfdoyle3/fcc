@@ -3,19 +3,19 @@ function whatIsInAName(collection, source) {
     
     var arr = [];
     // Only change code below this line
-for (var i in collection){
- if (source[Object.keys[source]]==collection[Object.keys(collection[i]){
-     collection.push(arr);
-     console.log(arr);
- }
+//for (var i in collection){
+// if (source[Object.keys[source]]==collection[Object.keys(collection[i]){
+//     collection.push(arr);
+ //    console.log(arr);
+// }
 
 
     //COLLECTION
-   //   console.log(collection[i]);
- //console.log (collection[i]["last"]);
- //console.log('Object.keys(collection[i]) = ' + Object.keys(collection[i]));
- //console.log(collection[i].hasOwnProperty("c"));
- //console.log(i+ " " + collection[i].hasOwnProperty(Object.keys(collection[i])));
+       console.log(collection[i]);
+ console.log (collection[i]["last"]);
+ console.log('Object.keys(collection[i]) = ' + Object.keys(collection[i]));
+ console.log(collection[i].hasOwnProperty("c"));
+ console.log(i+ " " + collection[i].hasOwnProperty(Object.keys(collection[i])));
  //SOURCE
 //console.log(source);
 //console.log(Object.keys(source));
