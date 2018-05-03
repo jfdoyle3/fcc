@@ -1,9 +1,10 @@
 function fearNotLetter(str) {
   var pos=0;
   for (i in str){
+  console.log(pos++);  
  //   console.log(str.charCodeAt(i));
     if (i != i++){
-console.log(pos++);
+    
     //  console.log(i, str.fromCharCode(i));
       str.fromCharCode(i++);
    
