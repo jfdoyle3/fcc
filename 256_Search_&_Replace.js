@@ -6,9 +6,7 @@ var a=after.charCodeAt(0);
 console.log(a);
 if (b < a){
 	 after= a-b;
-} else 
- if(a>b){
- 	after=a +b
+
  }
 //if (after == "john"){
 //   var after='John';
