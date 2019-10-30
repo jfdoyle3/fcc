@@ -30,7 +30,7 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 // Only change code below this line
 function updateRecords(id, prop, value) {
 // console.log(Object.keys(collectionCopy[id]));
- console.log(Object.values(collectionCopy, collectionCopy[id]));
+ //console.log(Object.values(collectionCopy, collectionCopy[id]));
  
 
    return collection;
