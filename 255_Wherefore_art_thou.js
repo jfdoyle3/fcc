@@ -3,23 +3,22 @@ function whatIsInAName(collection, source) {
     
     var arr = [];
     // Only change code below this line
-for (i in collection){
+    //console.log(source);
+     var result =  collection.filter(function (collection) {
+        return arr=source;
+      });
+      console.log(arr);
+//for (i in collection){
 
     //COLLECTION
- //console.log(collection[i]);
- //console.log (collection[i]["last"]);
- //console.log('Object.keys(collection[i]) = ' + Object.keys(collection[i]));
- //console.log(collection[i].hasOwnProperty("c"));
- //console.log(i+ " " + collection[i].hasOwnProperty(Object.keys(collection[i])));
- //SOURCE
-//console.log(source);
-//console.log(Object.keys(source));
-//console.log(source.hasOwnProperty(source[i]));
-console.log(source[Object.keys(source)]);
-}
+
+//console.log(source[Object.keys(source)]);
+//}
     // Only change code above this line
     return arr;
 }
   
-//  whatIsInAName([{ "a": 1, "b": 2 }, { "a": 1 }, { "a": 1, "b": 2, "c": 2 }], { "a": 1, "b": 2 })
-  whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" })
+//  whatIsInAName([{ "a": 1, "b": 2 }, { "a": 1 }, { "a": 1, "b": 2, "c": 2 }], { "a": 1, "b": 2 });
+// whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+  whatIsInAName([{ "apple": 1, "bat": 2 }, { "bat": 2 }, { "apple": 1, "bat": 2, "cookie": 2 }], { "apple": 1, "bat": 2 });
+    // [{ "apple": 1, "bat": 2 }, { "apple": 1, "bat": 2, "cookie": 2 }]
