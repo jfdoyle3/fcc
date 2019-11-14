@@ -1,18 +1,20 @@
 function rangeOfNumbers(startNum, endNum) 
 {
-    return (startNum===endNum) ? [number] :     
+   // return (startNum===endNum) ? [number] :     
     if (startNum===endNum)
     {
 
-        return [number];
+        return numbers;
     }
     else 
     {
-      let number=[endNum--];
-      console.log(endNum);
-      number.push(endNum);
-      
-    rangeOfNumbers(startNum, endNum);
+     // let number=[endNum--];
+    //  number.push(endNum--);
+    console.log()
+    let numbers=[rangeOfNumbers(startNum++, endNum--)];
+    numbers.push(startNum);
+    
+    
    };
 }
  rangeOfNumbers(6, 9);
