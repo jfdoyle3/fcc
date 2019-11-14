@@ -4,15 +4,14 @@ function rangeOfNumbers(startNum, endNum)
     if (startNum===endNum)
     {
 
-        return numbers;
+        return [endNum];
     }
     else 
     {
-     // let number=[endNum--];
-    //  number.push(endNum--);
-    console.log()
-    let numbers=[rangeOfNumbers(startNum++, endNum--)];
-    numbers.push(startNum);
+      let number=endNum--;
+   
+    rangeOfNumbers(startNum++, endNum--);
+    
     
     
    };
