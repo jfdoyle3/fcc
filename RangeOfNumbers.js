@@ -1,19 +1,22 @@
-function rangeOfNumbers(startNum, endNum) 
+function rangeOfNumbers(startNum, endNum)
 {
-   // return (startNum===endNum) ? [number] :     
-    if (startNum===endNum)
+    var numbers;
+ 
+  
+    if(startNum == endNum+1)
     {
-
-        return [endNum];
+      
+     return [endNum];
     }
-    else 
-    {
-      let number=endNum--;
-   
-    rangeOfNumbers(startNum++, endNum--);
-    
-    
-    
-   };
-}
- rangeOfNumbers(6, 9);
+    else
+   {  
+    numbers=startNum++;
+   // numbers.concat(startNum++);
+   // console.log(numbers);
+      numbers=rangeOfNumbers(startNum, endNum) 
+     
+     return numbers;
+     
+    }
+};
+rangeOfNumbers(6, 9);
