@@ -1,21 +1,19 @@
 function rangeOfNumbers(startNum, endNum)
 {
-    var numbers;
- 
+   
   
-    if(startNum == endNum+1)
+    if(startNum == endNum)
     {
-      
-     return [endNum];
+      s.push(startNum);
+     return numbers;
     }
     else
    {  
     numbers=startNum++;
-   // numbers.concat(startNum++);
-   // console.log(numbers);
-      numbers=rangeOfNumbers(startNum, endNum) 
+   
+      rangeOfNumbers(startNum, endNum) 
      
-     return numbers;
+     
      
     }
 };
